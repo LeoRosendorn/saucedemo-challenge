@@ -17,7 +17,7 @@ Automatización de pruebas para las funcionalidades de **Login** y **Carrito de 
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/saucedemo-challenge.git
+git clone https://github.com/LeoRosendorn/saucedemo-challenge.git
 cd saucedemo-challenge
 
 # 2. Instalar dependencias
