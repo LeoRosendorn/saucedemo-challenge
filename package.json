@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo-challenge",
+  "version": "1.0.0",
+  "description": "QA Technical Challenge - SauceDemo & MercadoLibre Automation with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:login": "playwright test tests/login.spec.ts",
+    "test:cart": "playwright test tests/cart.spec.ts",
+    "test:api": "playwright test tests/api.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  }
+}
